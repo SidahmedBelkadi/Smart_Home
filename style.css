@@ -56,7 +56,7 @@ h3 {
     font-style: 1.1rem;
     font-weight: 400;
     line-height: 1.5;
-    margin: 1.5rem auto 3rem;
+    margin: 3rem auto 3rem;
 }
 
 a {
@@ -146,3 +146,130 @@ nav button {
 
 /* ==== Navigation Bar End */
 
+/* ==== Header Start ===== */
+
+header {
+    background: url(./assets/Header_Bg.png) no-repeat top center/100vw;
+    max-width: 100vw;
+    text-align: center;
+    padding-bottom: var(--bottom-section-padding);
+}
+
+header .header__title {
+    padding-top: 12rem;
+    color: var(--primary-white);
+    font-size: 4.5rem;
+}
+
+header p {  
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}
+
+header .header__image {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cta a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    font-weight: 400;
+    background-color: #000;
+    border-radius: 0.7rem;
+    padding: 0.8rem 1.6rem;
+}
+
+.cta a:hover {
+    background-color: var(--color-black);
+    color: var(--primary-white);
+}
+
+.cta .logo {
+    width: 2rem;
+    font-size: 2rem;
+}
+
+header .header_socials {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 38%;
+    left: 3rem;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+
+header .header__decorator-1 {
+    position: absolute;
+}
+
+header .header__decorator-2 {
+    position: absolute;
+    right: 0;
+    margin-top: -24rem;
+    width: 12rem;
+}
+
+
+/* ==== Header End ===== */
+
+
+/* ==== About Us Start ===== */
+
+.about__title {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.about__content p {
+    line-height: 1.8rem;
+    text-align: left;
+}
+.about__content a {
+    padding: 1rem 4rem;
+    margin-top: 3rem;
+}
+
+
+.about__image {
+    position: relative;
+}
+
+.about__image .blue {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-59%, -28%);
+    height: 15rem;
+    width: 450px;
+    
+    z-index: -1;
+}
+#second {
+    transform: translate(-41%, -28%);
+}
+
+.about__article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.about__content .about__article-title {
+    color: var(--color-black);
+    margin-bottom: 3rem;
+}
+
+/* ==== About Us End ===== */
