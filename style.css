@@ -105,6 +105,7 @@ section {
 nav {
     width: 100vw; height: 6rem;
     background-color: var(--primary-color);
+    /* box-shadow: rgb(1, 69, 247) 2px 2px 20px; */
     display: grid;
     place-items: center;
     position: fixed;
@@ -272,4 +273,22 @@ header .header__decorator-2 {
     margin-bottom: 3rem;
 }
 
+
 /* ==== About Us End ===== */
+
+
+/* ==== Clients Start ===== */
+
+#clients h1,
+#clients p {
+    text-align: center;
+}
+
+.clients__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 8rem;
+}
+
+/* ==== Clients End ===== */
