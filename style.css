@@ -415,6 +415,13 @@ header .header__decorator-2 {
     display: none;
 }
 
+.faqs_decorator {
+    position: absolute;
+    margin-top: 14.5rem;
+    left: 0;
+    width: 12rem;
+}
+
 /* ==== FAQ'S End ===== */
 
 
@@ -429,3 +436,30 @@ header .header__decorator-2 {
 .downloadApp__content > p {
     margin: 4rem 0;
 } 
+
+/* ==== Download App End ===== */
+
+/* ==== Subscribe Start ===== */
+.subscribe__container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--primary-color);
+    color: var(--primary-white);
+    height: 20rem;
+    padding: 4rem;
+    border-radius: 2rem;
+}
+
+.subscribe__text > p {
+    margin-top: 1.2rem;
+    width: 90%;
+}
+
+.subscribe__btn:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-white);
+    border: 1px solid var(--primary-white);
+}
+
+/* ==== Subscribe End ===== */
