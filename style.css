@@ -416,3 +416,16 @@ header .header__decorator-2 {
 }
 
 /* ==== FAQ'S End ===== */
+
+
+/* ==== Download App Start ===== */
+.downloadApp__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.downloadApp__content > p {
+    margin: 4rem 0;
+} 
