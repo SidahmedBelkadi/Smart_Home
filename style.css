@@ -30,6 +30,14 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrappper {
+    flex-grow: 1;
+}
 
 .container {
     width: var(--container-width);
@@ -426,6 +434,7 @@ header .header__decorator-2 {
 
 
 /* ==== Download App Start ===== */
+
 .downloadApp__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -463,3 +472,103 @@ header .header__decorator-2 {
 }
 
 /* ==== Subscribe End ===== */
+
+/* ==== Footer Start ===== */
+
+footer {
+    background-color: var(--primary-color);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.footer__container > div h4 {
+    margin-bottom: 1.6rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-1 > .logo {
+    color: #fff;
+    font-style: 1.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.footer-1 p {
+    margin: 1rem 0 2rem;
+    width: 20rem;
+}
+
+.footer__subscribe{
+    background-color: transparent;
+    border: 1px solid var(--color-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 80%;
+}
+
+.footer__subscribe input {
+    background-color: transparent;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.footer__subscribe input::placeholder {
+    color: var(--color-light);
+}
+
+.footer__subscribe button {
+    background-color: #fff;
+    height: 100%;
+    width: 3rem;
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.footer__subscribe button:hover {
+    background-color: var(--primary-color);
+    color: var(--color-light) ;
+    cursor: pointer;
+    border-left: 1px solid var(--color-light);
+}
+
+footer ul li {
+   margin-bottom: 1rem; 
+}
+
+footer ul li a {
+    color: var(--color-light);
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: var(--primary-white);
+}
+.footer-4 p {
+    margin-bottom: 2rem;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem;
+    column-rule: var(--color-light);
+    border-top: 1px solid var(--color-light);
+}
